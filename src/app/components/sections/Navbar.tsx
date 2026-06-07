@@ -11,7 +11,7 @@ const navLinks = [
 
 export default function Navbar() {
   return (
-    <header className=" fixed flex items-center justify-between w-[90%] mt-5 mx-auto p-2 px-7 rounded-xl border-zinc-200/80 bg-white/25 shadow-lg shadow-zinc-900/5 backdrop-blur-md z-2">
+    <header className=" fixed flex items-center justify-between w-[90%] mt-5 mx-auto p-2 px-7 rounded-xl border-zinc-200/80 bg-white/25 shadow-lg shadow-zinc-900/5 backdrop-blur-md z-100">
       <div>
         <Link href="/">
           <Image src="/icon.svg" alt="logo" width={150} height={100} />
