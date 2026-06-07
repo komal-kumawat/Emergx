@@ -37,7 +37,7 @@ const Hero = () => {
                     </Link>
                 </div>
             </div>
-            <div className="flex flex-col text-gray-900 mb-5 w-[95%]">
+            <div className="flex flex-col text-gray-900 mb-5 w-[90%]">
                 <p>Trusted by teams that hire world-class talent</p>
 
                 <div className="overflow-hidden w-full">
@@ -45,7 +45,7 @@ const Hero = () => {
 
                     <Marquee speed={40} gradient={false}>
                         {TrustedMembers.map(({ name, logo }) => (
-                            <div key={name} className="relative w-20 h-20 mx-18">
+                            <div key={name} className="relative w-20 h-20 mx-20">
                                 <Image
                                     src={logo}
                                     alt={name}
