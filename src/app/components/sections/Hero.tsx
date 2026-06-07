@@ -17,11 +17,11 @@ const Hero = () => {
 
     return (
         <div className=' bg-[radial-gradient(ellipse_100%_100%_at_top,#3E165B_0%,#580B97_30%,#A96BDC_60%,#FFFFFF_100%)] flex flex-col mt-0 pt-0 h-[100vh] relative z-1 w-full items-center justify-between  text-center '>
-            <div className='flex flex-col gap-3 mt-50'>
-                <h1 className='text-6xl font-bold text-center my-2'>Your Team Deserves Better <br></br> Hiring Automation</h1>
-                <p className='text-md'>AI recruiting agents built for quality. Scale your hiring without losing the <br />
+            <div className='flex flex-col gap-5 mt-50'>
+                <h1 className='text-7xl font-bold text-center my-2'>Your Team Deserves Better <br></br> Hiring Automation</h1>
+                <p className='text-xl'>AI recruiting agents built for quality. Scale your hiring without losing the <br />
                     human insight every great hire deserves.</p>
-                <div className='flex justify-center gap-3'>
+                <div className='flex justify-center gap-5 my-2'>
                     <Link
                         href="#request-demo"
                         className="bg-[#3e165b] hover:bg-[#580B97] hover:scale-105 text-white px-4 py-1 rounded-md transition-all duration-300 inline-block"
@@ -37,8 +37,8 @@ const Hero = () => {
                     </Link>
                 </div>
             </div>
-            <div className="flex flex-col text-gray-900 mb-5 w-[90%]">
-                <p>Trusted by teams that hire world-class talent</p>
+            <div className="flex flex-col text-gray-900  w-[90%] gap-4">
+                <p className='text-md '>Trusted by teams that hire world-class talent</p>
 
                 <div className="overflow-hidden w-full">
 
