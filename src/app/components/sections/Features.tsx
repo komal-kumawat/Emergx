@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Features() {
   return (
-    <section className="w-[90%] mx-auto flex flex-col items-center gap-5 py-20">
+    <section id="Features" className="scroll-mt-24 w-[90%] mx-auto flex flex-col items-center gap-5 py-20">
       <h1 className="text-5xl font-bold text-center">
         Why teams trust us
       </h1>

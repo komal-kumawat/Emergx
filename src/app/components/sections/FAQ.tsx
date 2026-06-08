@@ -9,7 +9,7 @@ export default function FAQ() {
   return (
     <section
       id="FAQ"
-      className="flex flex-col items-center w-full min-h-screen  py-20"
+      className=" scroll-mt-24 flex flex-col items-center w-full min-h-screen  py-20"
     >
       <div className="w-[90%] max-w-6xl">
         <h1 className="text-5xl md:text-6xl font-bold text-center mb-4">

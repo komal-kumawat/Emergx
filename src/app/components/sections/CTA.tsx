@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function CTA() {
   return (
-    <section className="relative w-[90%] mx-auto overflow-hidden rounded-3xl bg-black py-28">
+    <section id="CTA" className="scroll-mt-24 relative w-[90%] mx-auto overflow-hidden rounded-3xl bg-black py-28">
       <div className="absolute inset-0 pointer-events-none">
         <div className="gradient-bar top-[10%] w-[50%]" />
         <div className="gradient-bar-reverse top-[25%] w-[70%]" />

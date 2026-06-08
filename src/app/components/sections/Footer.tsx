@@ -6,11 +6,11 @@ const navLinks = [
     { label: "HOME", href: "/" },
     { label: "FAQ", href: "#FAQ" },
     { label: "PLATFORM", href: "#Platform" },
-    { label: "CONTACT", href: "#Contact" },
+    { label: "CONTACT", href: "#CTA" },
     { label: "FEATURES", href: "#Features" },
 ] as const;
 export default function Footer() {
-    return <div className="flex justify-between w-full p-20  pb-10">
+    return <div  className="scroll-mt-24 flex justify-between w-full p-20  pb-10">
         <div className="flex flex-col gap-5">
             <Link href="/">
                 <Image src="/icon.svg" alt="logo" width={150} height={100} />

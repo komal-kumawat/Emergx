@@ -6,7 +6,7 @@ const navLinks = [
   { label: "PLATFORM", href: "#Platform" },
   { label: "FEATURES", href: "#Features" },
   { label: "FAQ", href: "#FAQ" },
-  { label: "CONTACT", href: "#Contact" },
+  { label: "CONTACT", href: "#CTA" },
 ] as const;
 
 export default function Navbar() {

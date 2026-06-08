@@ -7,7 +7,7 @@ export default function Platform() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <div className="px-7 py-5 pt-10 bg-white min-h-[100vh] text-gray-900 w-full flex flex-col items-center justify-center">
+    <div id="Platform" className="scroll-mt-24 px-7 py-5 pt-10 bg-white min-h-[100vh] text-gray-900 w-full flex flex-col items-center justify-center">
     <div className="text-4xl w-[90%] leading-relaxed">
         EmergX is the only platform where candidates are <span className="text-white font-semibold bg-[#580B97] px-2">sourced</span>,  <span className="text-white font-semibold bg-[#580B97] px-2">evaluated</span> and  <span className="text-white font-semibold bg-[#580B97] px-2">verified</span>. The result?  <span className="text-white font-semibold bg-[#580B97] px-2">Faster hires</span>,  <span className="text-white font-semibold bg-[#580B97] px-2">real talent</span> insight and value that's built, <br />not burned.
     </div>
